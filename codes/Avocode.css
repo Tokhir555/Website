@@ -1,0 +1,147 @@
+/* Код обнуления */
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline:none;}
+a:focus,a:active{outline:none;}
+
+nav,footer,header,aside{display:block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input:: -ms-clear{display: none;}
+button{cursor: pointer;}
+button:: moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit; font-weight: 400;}
+
+/* Стили шрифтов */
+@font-face {
+	font-family: 'Proxima Nova Rg';
+	src: url('../fonts/Mark Simonson - Proxima Nova Condensed Regular.eot');
+	src: local('☺'), url('../fonts/Mark Simonson - Proxima Nova Condensed Regular.woff') format('woff'), url('../fonts/Mark Simonson - Proxima Nova Condensed Regular.ttf') format('truetype'), url('../fonts/Mark Simonson - Proxima Nova Condensed Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Proxima Nova Lt';
+	src: url('../fonts/Mark Simonson - Proxima Nova Condensed Light.eot');
+	src: local('☺'), url('../fonts/Mark Simonson - Proxima Nova Condensed Light.woff') format('woff'), url('../fonts/Mark Simonson - Proxima Nova Condensed Light.ttf') format('truetype'), url('../fonts/Mark Simonson - Proxima Nova Condensed Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+
+
+body{
+	min-width: 812px;
+
+}
+
+.wrapper{
+	display: flex;
+	min-height: 100%;
+	overflow: hidden;
+	flex-direction: column;
+
+}
+.container{
+	width: 100%;
+	max-width: 812px;
+	margin: 0px auto;
+}
+
+.main_text-1{
+	font-family: 'Proxima Nova Rg';
+	color: #2e2e2e;
+	margin-top: 165px;
+	margin-left: 0px;
+	font-size: 75px;
+	font-weight: 500px;
+
+}
+span{
+	color: #00bc87;
+	font-style: ;
+}
+.text-1{
+	font-family: 'Proxima Nova Rg';
+	font-size: 20px;
+	opacity: 0.7;
+	width: 396px;
+	color: #000000;
+	margin-top: 14px;
+	margin-left: 0px;
+	letter-spacing: 2px;
+}
+
+.image-1{
+	position: absolute;
+	margin-top: -82px; 
+	margin-left: 417px;
+
+}
+
+hr{
+	width: 812px;
+	height: 4px;
+	background-color: #000000;
+	opacity: 0.05;
+	position: absolute;
+	margin-top: 182px;
+	margin-left: 0px;
+}
+
+.main_text-2{
+	position: absolute;
+	margin-top: 248px;
+	margin-left: 220px;
+	font-size: 29px;
+	color: #2e2e2e;
+	font-weight: 600;
+	text-align: center;
+	font-family: 'Proxima Nova Lt';
+	width: 337px;
+	height: 34px;
+}
+
+.text-2{
+	position: absolute;
+	margin-top: 298px;
+	margin-left: 100px;
+	letter-spacing: normal;
+	font-family: 'Proxima Nova Rg';
+	font-size: 21px;
+	text-align: center;
+}
+
+.image-2{
+	position: absolute;
+	margin-top: 391px;
+	margin-left: -28px;
+}
+
